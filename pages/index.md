@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Welcome
-permalink: /
+permalink: /home
 section: home
 intro_paragraph: >
   [Jekyll Netlify Boilerplate](https://github.com/danurbanowicz/jekyll-netlify-boilerplate)
