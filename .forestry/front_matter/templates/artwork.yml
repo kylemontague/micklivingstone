@@ -1,0 +1,45 @@
+---
+label: Artwork
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- type: text
+  name: subtitle
+  label: subtitle
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+  config:
+    required: true
+- type: file
+  name: featured_image
+  label: featured_image
+- type: text
+  name: sizes
+  label: sizes
+- type: boolean
+  name: sold
+  label: sold
+- name: price
+  type: number
+  label: price
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 0
+    max: 
+    step: 
+  showOnly:
+    field: sold
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: more images
