@@ -7,7 +7,7 @@ collections:
   pages:
     output: true
     permalink: /:name
-  artworks:
+  projects:
     output: true
     permalink: /artwork/:slug
 
