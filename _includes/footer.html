@@ -1,5 +1,20 @@
-<footer>
+<footer class="footer">
 
-  <!-- <small>This project is maintained by <a href="https://www.danurbanowicz.com" rel="noopener">Dan Urbanowicz</a>. View the repo on <a href="https://github.com/danurbanowicz/jekyll-netlify-boilerplate" rel="noopener">Github</a></small> -->
+	<div class="wrap">
+
+		<div class="footer__content">
+
+			<p class="footer__text">{{ site.data.settings.footer_settings.footer_tagline }}</p>
+
+			<div class="footer__copyright">
+				<span>© {{ 'now' | date: "%Y" }} {{ site.data.settings.basic_settings.site_title }}</span>
+				<a href="https://jekyllthemes.io" target="_blank">Jekyll Themes</a>
+			</div>
+
+			{% include socials.html %}
+
+		</div>
+
+	</div>
 
 </footer>
