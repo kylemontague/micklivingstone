@@ -34,7 +34,7 @@ defaults:
       path: ""
       type: "artworks"
     values:
-      layout: "project"
+      layout: "artwork"
 
 markdown: kramdown
 
