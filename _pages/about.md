@@ -1,10 +1,10 @@
 ---
 title: Mick Livingstone Artist
 subtitle: ''
-featured_image: "/images/mick.jpeg"
+featured_image: "/images/2012-07-06-18-12-31.jpg"
 additional_images:
+- "/images/mick.jpeg"
 - "/images/artist-in-residence-dec-2012-004.jpg"
-- "/images/2012-07-06-18-12-31.jpg"
 - "/images/oct2013-005.jpg"
 - "/images/mickapril2014-004.jpg"
 - "/images/cameradownload-652.jpg"
