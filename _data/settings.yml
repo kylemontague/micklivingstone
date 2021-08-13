@@ -8,10 +8,10 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'About'
-      url: '/'
     - title: 'Artworks'
-      url: '/artworks/'
+      url: '/'
+    - title: 'About'
+      url: '/about'
 
 footer_settings:
   footer_tagline: Mick Livingstone
