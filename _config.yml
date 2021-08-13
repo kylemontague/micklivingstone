@@ -7,7 +7,7 @@ collections:
   pages:
     output: true
     permalink: /:name
-  artworks:
+  projects:
     output: true
     permalink: /artwork/:slug
 
@@ -26,13 +26,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: ""
-      type: "artworks"
+      type: "projects"
     values:
       layout: "project"
 

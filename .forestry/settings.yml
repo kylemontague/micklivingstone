@@ -8,7 +8,7 @@ sections:
   path: _pages/about.md
   label: About
 - type: directory
-  path: _artworks
+  path: _projects
   label: Artworks
   create: documents
   match: "*"
