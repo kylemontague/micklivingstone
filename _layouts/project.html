@@ -17,9 +17,10 @@ layout: default
 
 	<img src=" {{ page.featured_image }}" alt=""/>
 	<p>
-		{% if page.medium }
+		{% if page.medium %}
 			<span id="medium">{{ page.medium }} | </span>
 		{% endif %}
+
 		{{ page.sizes | append: ' inches' }}
 	</p>
 	
