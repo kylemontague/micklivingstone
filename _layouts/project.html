@@ -16,7 +16,7 @@ layout: default
 <section class="single">
 
 	<img src=" {{ page.featured_image }}" alt=""/>
-	<p>{{ page.sizes | prepend: 'inches' }}</p>
+	<p>{{ page.sizes | append: ' inches' }}</p>
 	
 	{% if page.sold == false %}
 		<p>{{ page.price | prepend: '&pound' }}</p>
