@@ -16,10 +16,10 @@ layout: default
 <section class="single">
 
 	<img src=" {{ page.featured_image }}" alt=""/>
-	<p>{{ page.sizes }}</p>
+	<p>{{ page.sizes | prepend: 'inches' }}</p>
 	
 	{% if page.sold == false %}
-		<span id="price">{{ page.price | prepend: '&pound' }}</span>
+		<p>{{ page.price | prepend: '&pound' }}</p>
 	{% endif %}
 
 	{{ page.content }}
