@@ -1,11 +1,13 @@
 ---
 title: Mick Livingstone Artist
 subtitle: ''
-featured_image: "/images/demo/blog-01.jpg"
+featured_image: "/images/mick.jpeg"
 additional_images:
-- "/images/demo/square-04.jpg"
-- "/images/demo/landscape-04.jpg"
-- "/images/demo/blog-01.jpg"
+- "/images/artist-in-residence-dec-2012-004.jpg"
+- "/images/2012-07-06-18-12-31.jpg"
+- "/images/oct2013-005.jpg"
+- "/images/mickapril2014-004.jpg"
+- "/images/cameradownload-652.jpg"
 
 ---
 **Mick Livingstone** (1950 – 2021) was an artist who painted mainly in oils. In later years he also used watercolours, sometimes acrylics or now and then charcoal, pencil and pastels.
