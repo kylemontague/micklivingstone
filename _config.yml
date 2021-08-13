@@ -9,6 +9,7 @@ collections:
     permalink: /:name
   projects:
     output: true
+    sort_by: archived
     permalink: /artwork/:slug
 
 defaults:
