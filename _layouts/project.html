@@ -8,7 +8,6 @@ layout: default
 
 		<h1>{{ page.title }}</h1>
 		<p>{{ page.subtitle }}</p>
-		<p>{{ page.sizes }}</p>
 
 	</div>
 
@@ -16,7 +15,13 @@ layout: default
 
 <section class="single">
 
+	<img src=" {{ page.featured_image }}" alt=""/>
 	<p>{{ page.sizes }}</p>
+	
+	{% if page.sold == false %}
+		<span id="price">{{ page.price | prepend: '&pound' }}</span>
+	{% endif %}
+
 	{{ page.content }}
 
 </section>
