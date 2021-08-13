@@ -16,7 +16,12 @@ layout: default
 <section class="single">
 
 	<img src=" {{ page.featured_image }}" alt=""/>
-	<p>{{ page.sizes | append: ' inches' }}</p>
+	<p>
+		{% if page.medium }
+			<span id="medium">{{ page.medium }} | </span>
+		{% endif %}
+		{{ page.sizes | append: ' inches' }}
+	</p>
 	
 	{% if page.archived %}
 		<p>part of Mick's archive.</p>
