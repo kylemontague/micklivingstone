@@ -7,15 +7,18 @@ layout: default
 	<div class="wrap">
 
 		<h1>{{ page.title }}</h1>
-		<p>{{ page.subtitle }}</p>
+		{% if page.subtitle %}
+			<p>{{ page.subtitle }}</p>
+		{% endif %}
 
 	</div>
 
 </section>
 
 <section class="single">
-
-	<img src=" {{ page.featured_image }}" alt=""/>
+	<div class="wrap">
+		<img src=" {{ page.featured_image }}" alt=""/>
+	</div>
 	<p>
 		{% if page.medium %}
 			<span id="medium">{{ page.medium }} | </span>
