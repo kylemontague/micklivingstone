@@ -10,7 +10,7 @@ sections:
 - type: directory
   path: _projects
   label: Artworks
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - artwork
