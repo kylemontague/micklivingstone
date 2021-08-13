@@ -1,5 +1,5 @@
 ---
-title: Mick Livingstone, Artist
+title: Mick Livingstone Artist
 subtitle: ''
 featured_image: "/images/demo/blog-01.jpg"
 additional_images:
