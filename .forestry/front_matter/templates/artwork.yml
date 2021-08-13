@@ -25,6 +25,8 @@ fields:
     - oil on canvas
     - watercolour
     - giclee print
+    - 'charcoal and pencil '
+    - acrylic
     source:
       type: simple
       section: 
