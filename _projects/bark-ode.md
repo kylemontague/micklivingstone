@@ -1,5 +1,4 @@
 ---
-price: 500
 title: Bark Ode
 subtitle: ''
 date: '2007-12-04T00:00:00.000+00:00'
