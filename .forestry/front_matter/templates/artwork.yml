@@ -43,5 +43,3 @@ fields:
   type: image_gallery
   config: {}
   label: more images
-pages:
-- _artworks/bark-ode.md

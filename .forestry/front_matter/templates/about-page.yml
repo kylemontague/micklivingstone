@@ -8,9 +8,6 @@ fields:
 - type: text
   name: subtitle
   label: subtitle
-- type: text
-  name: description
-  label: description
 - type: file
   name: featured_image
   label: featured_image
