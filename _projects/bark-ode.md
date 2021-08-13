@@ -6,7 +6,7 @@ date: '2007-12-04T00:00:00.000+00:00'
 description: tentsmuir beach
 featured_image: "/images/demo/blog-01.jpg"
 sizes: 34 x 26
-sold: false
+archived: false
 gallery:
 - "/images/favicon.png"
 - "/images/demo/portrait-02.jpg"
