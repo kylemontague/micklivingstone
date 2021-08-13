@@ -18,10 +18,20 @@ layout: default
 	<img src=" {{ page.featured_image }}" alt=""/>
 	<p>{{ page.sizes | append: ' inches' }}</p>
 	
-	{% if page.sold == false %}
+	{% if page.archived %}
+		<p>part of Mick's archive.</p>
+	{% else %}
 		<p>{{ page.price | prepend: '&pound' }}</p>
 	{% endif %}
 
 	{{ page.content }}
+
+	{% if page.gallery %}
+	<div class="gallery" data-columns="3">
+		{% for image in page.gallery %}
+			<img src="{{ image }}"/>
+		{% endfor %}
+	</div>
+	{% endif %}
 
 </section>

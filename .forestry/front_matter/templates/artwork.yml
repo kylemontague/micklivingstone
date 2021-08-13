@@ -17,8 +17,8 @@ fields:
   name: sizes
   label: sizes
 - type: boolean
-  name: sold
-  label: sold
+  name: archived
+  label: archived
 - name: price
   type: number
   label: price
@@ -30,7 +30,7 @@ fields:
     max: 
     step: 
   showOnly:
-    field: sold
+    field: archived
 - name: gallery
   type: image_gallery
   config: {}
