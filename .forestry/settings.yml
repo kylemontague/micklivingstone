@@ -11,7 +11,7 @@ sections:
   path: _projects
   label: Artworks
   create: documents
-  match: "**/*"
+  match: "*"
   templates:
   - artwork
 upload_dir: images
