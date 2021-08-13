@@ -17,8 +17,12 @@ layout: default
 
 <section class="single">
 
-	<img src=" {{ page.featured_image }}" alt=""/>
-
+	{% if page.featured_image %}
+	<div class="wrap">
+		<img src=" {{ page.featured_image }}" alt=""/>
+	</div>
+	{% endif %}
+	
 	{{ page.content }}
 	
 	{% if page.additional_images %}

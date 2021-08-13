@@ -11,6 +11,13 @@ layout: default
 			<p>{{ page.subtitle }}</p>
 		{% endif %}
 
+		<p>
+			{% if page.medium %}
+				<span id="medium">{{ page.medium }} | </span>
+			{% endif %}
+	
+			{{ page.sizes | append: ' inches' }}
+		</p>
 	</div>
 
 </section>
@@ -19,13 +26,7 @@ layout: default
 	<div class="wrap">
 		<img src=" {{ page.featured_image }}" alt=""/>
 	</div>
-	<p>
-		{% if page.medium %}
-			<span id="medium">{{ page.medium }} | </span>
-		{% endif %}
-
-		{{ page.sizes | append: ' inches' }}
-	</p>
+	
 	
 	{% if page.archived %}
 		<p>part of Mick's archive.</p>
