@@ -5,11 +5,16 @@ fields:
 - type: text
   name: title
   label: title
+  hidden: true
 - type: text
   name: subtitle
   label: subtitle
 - type: file
   name: featured_image
   label: featured_image
+- name: additional_images
+  type: image_gallery
+  config: {}
+  label: additional images
 pages:
 - _pages/about.md
