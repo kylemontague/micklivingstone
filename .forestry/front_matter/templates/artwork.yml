@@ -10,14 +10,6 @@ fields:
 - type: text
   name: subtitle
   label: subtitle
-- type: datetime
-  name: date
-  label: date
-- type: text
-  name: description
-  label: description
-  config:
-    required: true
 - type: file
   name: featured_image
   label: featured_image
